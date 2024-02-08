@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فرص التدريب</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .cards-slider {
+        display: flex;
+        overflow-x: auto;
+        width: 100%;
+        padding: 10px 0;
+        scroll-behavior: smooth;
+    }
+
+    .card {
+        flex: 0 0 auto;
+        width: 20%;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-right: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .card-content {
+        padding: 20px;
+        background-color: #fff;
+    }
+
+    .card-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .card-description {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .register-button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+
+    .register-button:hover {
+        background-color: #0056b3;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title">فرص التدريبية</h1>
+    <div class="cards-slider">
+        <div class="card">
+            <img src="https://www.okaz.com.sa/uploads/images/2018/12/02/1074570.png" alt="تمهير">
+            <div class="card-content">
+                <h3 class="card-title">تمهير</h3>
+                <p class="card-description">هو برنامج تدريب على رأس العمل موجَّه للخريجين والخريجات السعوديين من الجامعات المحلية والخارجية، وخريجي المعاهد والكليات حملة الدبلومات الفنية والصحية
+                </p>
+                <a href="#" class="register-button">تسجيل</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img src="https://pbs.twimg.com/media/CLlt5AWUYAAHZCd.jpg" alt="أكاديمية منشات">
+
+                <h3 class="card-title">تدريب أرامكو</h3>
+                <p class="card-description"> توفر أرامكو السعودية فرصاً تدريبية لمرحلة الامتياز لعدد محدود من الطلاب السعوديين المتفوقين دراسياً سواء في جامعات داخل المملكة أو خارجها، إلى جانب الطلاب الملتحقين بالكليات الصناعية الفنية ومعهد الادارة العامة
+                </p>
+                <a href="#" class="register-button">تسجيل</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://maaal.com/wp-content/uploads/2022/04/%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9-%D9%85%D9%86%D8%B4%D8%A2%D8%AA.jpg" alt="أكاديمية منشات">
+            <div class="card-content">
+                <h3 class="card-title">أكاديمية منشات</h3>
+                <p class="card-description">برامج تدريبية وتعليمية لمساعدة المستفيدين لرفع الكفايات الإدارية والمالية والفنية، ونقل أفضل الممارسات في تأسيس وإدارة وتطوير المنشآت التجارية
+                </p>
+                <a href="#" class="register-button">تسجيل</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://fu1sa.com/uploads/editor/62cfc8073db821657784327.png" alt="تدريب جدراة">
+            <div class="card-content">
+                <h3 class="card-title">تدريب جدراة</h3>
+                <p class="card-description">    برنامج تدريبي يسعى لاستقطاب الخريجين المميزين لبناء مسار مهني واعد  بمختلف المجالات الدراسية فهي فرص لجميع طلاب المملكة
+                </p>
+                <a href="#" class="register-button">تسجيل</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/SABIC_Logo_RGB.png" alt="تطوير وسابك">
+            <div class="card-content">
+                <h3 class="card-title">سابك</h3>
+                <p class="card-description">تستثمر سابك في الحياة الوظيفية، وتقدم برنامج التطوير الوظيفي المبكر للخريجين المؤهلين حديثا  
+                </p>
+                <a href="#" class="register-button">تسجيل</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
